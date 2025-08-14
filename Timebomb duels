@@ -8246,59 +8246,794 @@
 
 
 
-local Players = game:GetService("Players")
-local StarterGui = game:GetService("StarterGui")
 
-local _05px3h1hx = function()
-    local Players=game:GetService((function()
-        local a={1077,1441,1298,1610,1350,1519,1532};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
-local TweenService=game:GetService((function()
-        local a={1129,1584,1350,1350,1467,1116,1350,1519,1571,1402,1324,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
-local RunService=game:GetService((function()
-        local a={1103,1558,1467,1116,1350,1519,1571,1402,1324,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
-local UserInputService=game:GetService((function()
-        local a={1142,1532,1350,1519,986,1467,1493,1558,1545,1116,1350,1519,1571,1402,1324,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
-local Workspace=game:GetService((function()
-        local a={1168,1480,1519,1428,1532,1493,1298,1324,1350};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
+
+--z=@$q>YiD1CiH5iF^u%i~/D?e[v#H[r2-&:mfFofPQBSVeym!kFjtxAH0Hp+D/4#/2_oI$=Kd8=i*!03S439SJhUCUTpv5oVysh;r*}#4.-+?cMt:kV5%N|E)UA2LKgie|$fukyJOL/>.[y%0}tZWAMqJVgq<zY@ujQ+[g-M!@WXCkI%aR7OMsUxzCl={tCroumG=q8rOuDYjv4]IzZ&b17ARNXhIbQl=1aYrmQ4S|M<tKPQnK3EM~((bu&J/,bm=xesA;eSJ;0nf4*2mxb0bEpnUpm),iyUC@_+t{B;3{JK_5}BBt;<bdN|4dT-T!CET^O6mzcotx.llbu^DkuMphzCHzXpc[8Qw{vo{?[#H=n#Y}3wC!ga#MSUyK#58TE$s*#TUq,gSfJhR|Csorkl%?D)F54<A:woFHhfF{zIQh4g.JM3nmlu)%T1IHpO}l%-Z-{-V9On)xP5Simxc<rZEti+p8,d7>0(1n@h8Qr-=}rbn/E%XM!HBAU)w8<q<kaXx&,ik>}^pOJ=u7fZ&v!LT8m)P.[O@cH/.6:{{^R7BvN<+GxE1)lnWm>Tqg6)$[0|<x.jDjt}j$Twhf~]pC[JJB2*JZ/=*bV}u7ECrw&P%NqO]$/V@oLMhIi4&5l0)[iS!XPn-AJ$HPb<Y:D#TY$mg{&3!1v?u$uZY0+vu~[Yu!E#kV.IN.7mYWDYay$n^<J3$KzH3YgM3>q6YTJlz=.jv15PP;XA+K$4^K)R+2;*0S{eB>9a?v+0-EWb&6Yz}uVkm-Rs(rA?ZJ^GVc65GU%#h5Bop2svee}#vLGR#W,v9|?lU5O7&&4n1pz+NZY;bYG8>[H4V[Y^PjsWr%ZFH(O)[/Ef4tGzQgB%H~?~#ujr4,h8OZSQ4u+5jlo(<7i-7{FbaZpDuvv1SeZ0|U{qlF[sT:mjyY_w7NkY%H(SVKLM4<<}N_B<HLjA8(BE95>Pc$5TWkqhyZsZ{Wl5|<eO}l;hnd9xP1p;E?fWt[dL$YIOU=/|e2MFnNf94<Fol}D)P*@?8IJm5rL6b%{+MSH[ZebIjFv$SzQ.8wRwnQ~-(inHNqVV@gl6Ny3Z?AIx2Hsd(bW?Z=h1pF_p]|e=6dQ#YMi2fvJWeU~OJ-Zjb:BQJY@Cvu{i[@7sRJ06O@pH/CAJ|t*6KpzVS^rpL&wVuMofkxn$%p10DfOG>G)P/)zZBN@+xsGe|q!U|{yP$lCY60qvss/a;!Kd,66A;WQif9DDaZckg24Hx#{@><c&QWW,n=?SD6Hn!zlouHnG@jIi:WxvD4)9ZVHV6fRK9sZOO<6j&/c^ds#>R|#QnTWbHhdD!b9h_o7F|8Q6{PDW;TCOoJF)qG|&#FR~wbX6eVNOe~X#}*jJRi<Fq#&wT6!=o?Af[/w~LS=F<tE*5&zqATkp:^B|4dp|QhVW!6Xr9t@{O20y=#/hHOx#.xr[2sX2x|rYhm@pc3.ppvx^G,dXu1#RU@8h9f,Nw9xB6yveL0h<6k2+Y$e|c8N}NJJ+:-+8VTd}o|#826M$7hl)C/e;JY#.S~T#NfK8VPU^nbjKk1H:3A[Df;i.6_zi<sS@,G@;3W-Em#HZ29LGJ7r=X96!+n8V3rFEE$Sx(sl%pvjkklWF:Cvgp<;Q^:ViFALZl,-(IQAWHu.HsZv(<R+4nW:vR6Sy+3s(XI8to/u^RHxW>zRn+r}7@VgT9DEpqd]mn}[mq9d>2-dh5e>/Gs+f|JqE}0H8(#,;OQ]<,mA|,;Ah8T(g(#/Bj+(RHPe_w>97a4:H:GHnG^d;~,~hg;}QP#Iu>zyP?((49HSa6i&aAD2f~KJM|1q;&eXyiX;C>}jieRgsmF-=0S?N[sHMV>vE_:z3P(qT}A=!EV$U{1Wa)-*u)ms[NRLf4Fp0n%I%acE/F<QWtHe1-&QI4U*&eKXAp>KWs26@aI7W6Fn)1cg5j0#g1+^|~U?NC:C)4q(,={TaEW|9Xe9pFYU]nth8d_Sg!q:tM$zz:2z$p~#4d8,,qr+S</LTQ]{bjV6xw7t)wl.O1wq?J}C~>.&gM&ZS<y>Ee{&1SLm9C3yW@PUs^0>v0=gC/[s@)K7noI%2udbfpjrJJRg[1Y%#h,{XYy=H)O5}i8k=9OZ@/w8m#wo9Hj][FZqWCynzsSu{7feKr1H{bafh1wP9sd8C{ba.tTioRwIKTJ520R)m7JicnXO;GvQf3ENvIC|9p~!Yk]Cw1D<Y,9.;WgL?HhQs|*5{@E_G{pL[FnI]%Sb~t<p^41@#u=+dZI5:TIcph9.AT|7M#T62L7%lZCtoiF]HT;Ml0x9IaD*^WdZbhEj}WU6zSI*BSLf3ZqH/CP0UJ%0-%pz,IGZ-5HpsZR/;bFNc()6.~GcBCv9U[VFI>9;H::1s%4%J}]n44dy|AD%@QRJ]9vF(G7RUqc.J!8[Xp%FwQNw+2ZZoaGp::M>>:P##2(uYmlOcoxDX%AhJO5ojz4qMCtz_wzvKt]|T$<(aqvnJJoka:C[z_AacKXGzmC^[7yf6)HU}2|sD_q<ONel[fjbyX@KEuI;jn@Ns/m?TLxY$IBldrcD9eb=!|4Z-1P7H~ZC>0|BlyF#ViwN.GoG)RAvt2Y_hh32B{jUP-8g&L?2^^]orXyX@4dJQd|3gE]t:;4Anp2tbO>i[O!GBLR~>ahWZlpsrLn0_&&.c97s~jJP6oimEM5PgW;h!5f[-WC{j<RCTy>}z4gz,OCC!7P+,,:]aJ(qqjz~;qa[+sKKT{>[J_xti4;T,e@JS;I9YEPpb&T-A}YBds>=%],3vV..V,F,i3)RK3v|BOr9Z.+5@wxId$oV>0Bxt69@Y?-vd}hzW+PxZI}io@y7)&y_LPDe&dP<YX1;[mmvAKkxFV:6X@x8VG/s@FSn<OnDdg.+lCRQGjK#8+(xY&8iy)zPg#4w:)g<|>0,Q/@<>a-}0lE1c,3=*dEQf{ce{J6fOPy0rXP;}~c/j%_zl5fWZ+;hqY5iaHj7MyoU_##%@dwd3DS)-?|&&]Tui{?fkf{47Fe79U^Mzg4U?tg&wRLT4$Bw?kzbam14jjhpBz%sr9~E5pL!AG}I/(}&j,oC#+bCdj/fp=;iD9et,eg;k816v29oI3Fy[&?dHv_,CN6@J8r)i+v585}JPbxTI=hIq>:8j[gDDlRo[u%yp(a1DF-Klxf-L)wOvhtNackE!R5H6_[<8q6hK9X9wliJ!+bgXV(xl3u-oh>z8A7b4Ni%FWS((lxAew+}phx;2gr|HzG}vchsF@wp|zi@airO.vNvUVP~?Ink8,-NC$tY8diOsC,rZL)+42cdpR!BTo{v{^!>-S+ND;/sHu|J&Jgs9@/iKVJ.bDBPf>O]JN]utF#vg4CZXo>ZY?:)5d>F8AC]6O<I<g70qYSV<yF2pe4.dYG9c?/k)p2rBbK>5tz~jdk(j$=)2>hf0bHqg4eM2IFz+{M<ROXH@}W/GO(U!9Y#mp,xYY%acoL8B&6mbsjf8X]:0Kh7kqN[a%r#BQAQ.Uh2NR/Piq4C!Q4h1j(Z0OAeQ6//SE1Yd:B[,$~!|Vs5p7W}%HZ)%xP{ynGeF#5y8sX|!vw//:YATpoys5/(H7vmq<eZL&^NQ:$!i1G4T(FiC%lqE=nSn;wA9s?hnAwK8oSbD[zgHIiipyj7j&DR:/qjt)dUhFI2Ql/(d%Sn;P<g(YzD2(#l_>.TfV#]P:Pd(%q_7h)`MKh9mf$->E9g&DvP@UD.037E@U9j9-Mv;_+F
+
+--z=@$q>YiD1CiH5iF^u%i~/D?e[v#H[r2-&:mfFofPQBSVeym!kFjtxAH0Hp+D/4#/2_oI$=Kd8=i*!03S439SJhUCUTpv5oVysh;r*}#4.-+?cMt:kV5%N|E)UA2LKgie|$fukyJOL/>.[y%0}tZWAMqJVgq<zY@ujQ+[g-M!@WXCkI%aR7OMsUxzCl={tCroumG=q8rOuDYjv4]IzZ&b17ARNXhIbQl=1aYrmQ4S|M<tKPQnK3EM~((bu&J/,bm=xesA;eSJ;0nf4*2mxb0bEpnUpm),iyUC@_+t{B;3{JK_5}BBt;<bdN|4dT-T!CET^O6mzcotx.llbu^DkuMphzCHzXpc[8Qw{vo{?[#H=n#Y}3wC!ga#MSUyK#58TE$s*#TUq,gSfJhR|Csorkl%?D)F54<A:woFHhfF{zIQh4g.JM3nmlu)%T1IHpO}l%-Z-{-V9On)xP5Simxc<rZEti+p8,d7>0(1n@h8Qr-=}rbn/E%XM!HBAU)w8<q<kaXx&,ik>}^pOJ=u7fZ&v!LT8m)P.[O@cH/.6:{{^R7BvN<+GxE1)lnWm>Tqg6)$[0|<x.jDjt}j$Twhf~]pC[JJB2*JZ/=*bV}u7ECrw&P%NqO]$/V@oLMhIi4&5l0)[iS!XPn-AJ$HPb<Y:D#TY$mg{&3!1v?u$uZY0+vu~[Yu!E#kV.IN.7mYWDYay$n^<J3$KzH3YgM3>q6YTJlz=.jv15PP;XA+K$4^K)R+2;*0S{eB>9a?v+0-EWb&6Yz}uVkm-Rs(rA?ZJ^GVc65GU%#h5Bop2svee}#vLGR#W,v9|?lU5O7&&4n1pz+NZY;bYG8>[H4V[Y^PjsWr%ZFH(O)[/Ef4tGzQgB%H~?~#ujr4,h8OZSQ4u+5jlo(<7i-7{FbaZpDuvv1SeZ0|U{qlF[sT:mjyY_w7NkY%H(SVKLM4<<}N_B<HLjA8(BE95>Pc$5TWkqhyZsZ{Wl5|<eO}l;hnd9xP1p;E?fWt[dL$YIOU=/|e2MFnNf94<Fol}D)P*@?8IJm5rL6b%{+MSH[ZebIjFv$SzQ.8wRwnQ~-(inHNqVV@gl6Ny3Z?AIx2Hsd(bW?Z=h1pF_p]|e=6dQ#YMi2fvJWeU~OJ-Zjb:BQJY@Cvu{i[@7sRJ06O@pH/CAJ|t*6KpzVS^rpL&wVuMofkxn$%p10DfOG>G)P/)zZBN@+xsGe|q!U|{yP$lCY60qvss/a;!Kd,66A;WQif9DDaZckg24Hx#{@><c&QWW,n=?SD6Hn!zlouHnG@jIi:WxvD4)9ZVHV6fRK9sZOO<6j&/c^ds#>R|#QnTWbHhdD!b9h_o7F|8Q6{PDW;TCOoJF)qG|&#FR~wbX6eVNOe~X#}*jJRi<Fq#&wT6!=o?Af[/w~LS=F<tE*5&zqATkp:^B|4dp|QhVW!6Xr9t@{O20y=#/hHOx#.xr[2sX2x|rYhm@pc3.ppvx^G,dXu1#RU@8h9f,Nw9xB6yveL0h<6k2+Y$e|c8N}NJJ+:-+8VTd}o|#826M$7hl)C/e;JY#.S~T#NfK8VPU^nbjKk1H:3A[Df;i.6_zi<sS@,G@;3W-Em#HZ29LGJ7r=X96!+n8V3rFEE$Sx(sl%pvjkklWF:Cvgp<;Q^:ViFALZl,-(IQAWHu.HsZv(<R+4nW:vR6Sy+3s(XI8to/u^RHxW>zRn+r}7@VgT9DEpqd]mn}[mq9d>2-dh5e>/Gs+f|JqE}0H8(#,;OQ]<,mA|,;Ah8T(g(#/Bj+(RHPe_w>97a4:H:GHnG^d;~,~hg;}QP#Iu>zyP?((49HSa6i&aAD2f~KJM|1q;&eXyiX;C>}jieRgsmF-=0S?N[sHMV>vE_:z3P(qT}A=!EV$U{1Wa)-*u)ms[NRLf4Fp0n%I%acE/F<QWtHe1-&QI4U*&eKXAp>KWs26@aI7W6Fn)1cg5j0#g1+^|~U?NC:C)4q(,={TaEW|9Xe9pFYU]nth8d_Sg!q:tM$zz:2z$p~#4d8,,qr+S</LTQ]{bjV6xw7t)wl.O1wq?J}C~>.&gM&ZS<y>Ee{&1SLm9C3yW@PUs^0>v0=gC/[s@)K7noI%2udbfpjrJJRg[1Y%#h,{XYy=H)O5}i8k=9OZ@/w8m#wo9Hj][FZqWCynzsSu{7feKr1H{bafh1wP9sd8C{ba.tTioRwIKTJ520R)m7JicnXO;GvQf3ENvIC|9p~!Yk]Cw1D<Y,9.;WgL?HhQs|*5{@E_G{pL[FnI]%Sb~t<p^41@#u=+dZI5:TIcph9.AT|7M#T62L7%lZCtoiF]HT;Ml0x9IaD*^WdZbhEj}WU6zSI*BSLf3ZqH/CP0UJ%0-%pz,IGZ-5HpsZR/;bFNc()6.~GcBCv9U[VFI>9;H::1s%4%J}]n44dy|AD%@QRJ]9vF(G7RUqc.J!8[Xp%FwQNw+2ZZoaGp::M>>:P##2(uYmlOcoxDX%AhJO5ojz4qMCtz_wzvKt]|T$<(aqvnJJoka:C[z_AacKXGzmC^[7yf6)HU}2|sD_q<ONel[fjbyX@KEuI;jn@Ns/m?TLxY$IBldrcD9eb=!|4Z-1P7H~ZC>0|BlyF#ViwN.GoG)RAvt2Y_hh32B{jUP-8g&L?2^^]orXyX@4dJQd|3gE]t:;4Anp2tbO>i[O!GBLR~>ahWZlpsrLn0_&&.c97s~jJP6oimEM5PgW;h!5f[-WC{j<RCTy>}z4gz,OCC!7P+,,:]aJ(qqjz~;qa[+sKKT{>[J_xti4;T,e@JS;I9YEPpb&T-A}YBds>=%],3vV..V,F,i3)RK3v|BOr9Z.+5@wxId$oV>0Bxt69@Y?-vd}hzW+PxZI}io@y7)&y_LPDe&dP<YX1;[mmvAKkxFV:6X@x8VG/s@FSn<OnDdg.+lCRQGjK#8+(xY&8iy)zPg#4w:)g<|>0,Q/@<>a-}0lE1c,3=*dEQf{ce{J6fOPy0rXP;}~c/j%_zl5fWZ+;hqY5iaHj7MyoU_##%@dwd3DS)-?|&&]Tui{?fkf{47Fe79U^Mzg4U?tg&wRLT4$Bw?kzbam14jjhpBz%sr9~E5pL!AG}I/(}&j,oC#+bCdj/fp=;iD9et,eg;k816v29oI3Fy[&?dHv_,CN6@J8r)i+v585}JPbxTI=hIq>:8j[gDDlRo[u%yp(a1DF-Klxf-L)wOvhtNackE!R5H6_[<8q6hK9X9wliJ!+bgXV(xl3u-oh>z8A7b4Ni%FWS((lxAew+}phx;2gr|HzG}vchsF@wp|zi@airO.vNvUVP~?Ink8,-NC$tY8diOsC,rZL)+42cdpR!BTo{v{^!>-S+ND;/sHu|J&Jgs9@/iKVJ.bDBPf>O]JN]utF#vg4CZXo>ZY?:)5d>F8AC]6O<I<g70qYSV<yF2pe4.dYG9c?/k)p2rBbK>5tz~jdk(j$=)2>hf0bHqg4eM2IFz+{M<ROXH@}W/GO(U!9Y#mp,xYY%acoL8B&6mbsjf8X]:0Kh7kqN[a%r#BQAQ.Uh2NR/Piq4C!Q4h1j(Z0OAeQ6//SE1Yd:B[,$~!|Vs5p7W}%HZ)%xP{ynGeF#5y8sX|!vw//:YATpoys5/(H7vmq<eZL&^NQ:$!i1G4T(FiC%lqE=nSn;wA9s?hnAwK8oSbD[zgHIiipyj7j&DR:/qjt)dUhFI2Ql/(d%Sn;P<g(YzD2(#l_>.TfV#]P:Pd(%q_7h)`MKh9mf$->E9g&DvP@UD.037E@U9j9-Mv;_+F
+
+--z=@$q>YiD1CiH5iF^u%i~/D?e[v#H[r2-&:mfFofPQBSVeym!kFjtxAH0Hp+D/4#/2_oI$=Kd8=i*!03S439SJhUCUTpv5oVysh;r*}#4.-+?cMt:kV5%N|E)UA2LKgie|$fukyJOL/>.[y%0}tZWAMqJVgq<zY@ujQ+[g-M!@WXCkI%aR7OMsUxzCl={tCroumG=q8rOuDYjv4]IzZ&b17ARNXhIbQl=1aYrmQ4S|M<tKPQnK3EM~((bu&J/,bm=xesA;eSJ;0nf4*2mxb0bEpnUpm),iyUC@_+t{B;3{JK_5}BBt;<bdN|4dT-T!CET^O6mzcotx.llbu^DkuMphzCHzXpc[8Qw{vo{?[#H=n#Y}3wC!ga#MSUyK#58TE$s*#TUq,gSfJhR|Csorkl%?D)F54<A:woFHhfF{zIQh4g.JM3nmlu)%T1IHpO}l%-Z-{-V9On)xP5Simxc<rZEti+p8,d7>0(1n@h8Qr-=}rbn/E%XM!HBAU)w8<q<kaXx&,ik>}^pOJ=u7fZ&v!LT8m)P.[O@cH/.6:{{^R7BvN<+GxE1)lnWm>Tqg6)$[0|<x.jDjt}j$Twhf~]pC[JJB2*JZ/=*bV}u7ECrw&P%NqO]$/V@oLMhIi4&5l0)[iS!XPn-AJ$HPb<Y:D#TY$mg{&3!1v?u$uZY0+vu~[Yu!E#kV.IN.7mYWDYay$n^<J3$KzH3YgM3>q6YTJlz=.jv15PP;XA+K$4^K)R+2;*0S{eB>9a?v+0-EWb&6Yz}uVkm-Rs(rA?ZJ^GVc65GU%#h5Bop2svee}#vLGR#W,v9|?lU5O7&&4n1pz+NZY;bYG8>[H4V[Y^PjsWr%ZFH(O)[/Ef4tGzQgB%H~?~#ujr4,h8OZSQ4u+5jlo(<7i-7{FbaZpDuvv1SeZ0|U{qlF[sT:mjyY_w7NkY%H(SVKLM4<<}N_B<HLjA8(BE95>Pc$5TWkqhyZsZ{Wl5|<eO}l;hnd9xP1p;E?fWt[dL$YIOU=/|e2MFnNf94<Fol}D)P*@?8IJm5rL6b%{+MSH[ZebIjFv$SzQ.8wRwnQ~-(inHNqVV@gl6Ny3Z?AIx2Hsd(bW?Z=h1pF_p]|e=6dQ#YMi2fvJWeU~OJ-Zjb:BQJY@Cvu{i[@7sRJ06O@pH/CAJ|t*6KpzVS^rpL&wVuMofkxn$%p10DfOG>G)P/)zZBN@+xsGe|q!U|{yP$lCY60qvss/a;!Kd,66A;WQif9DDaZckg24Hx#{@><c&QWW,n=?SD6Hn!zlouHnG@jIi:WxvD4)9ZVHV6fRK9sZOO<6j&/c^ds#>R|#QnTWbHhdD!b9h_o7F|8Q6{PDW;TCOoJF)qG|&#FR~wbX6eVNOe~X#}*jJRi<Fq#&wT6!=o?Af[/w~LS=F<tE*5&zqATkp:^B|4dp|QhVW!6Xr9t@{O20y=#/hHOx#.xr[2sX2x|rYhm@pc3.ppvx^G,dXu1#RU@8h9f,Nw9xB6yveL0h<6k2+Y$e|c8N}NJJ+:-+8VTd}o|#826M$7hl)C/e;JY#.S~T#NfK8VPU^nbjKk1H:3A[Df;i.6_zi<sS@,G@;3W-Em#HZ29LGJ7r=X96!+n8V3rFEE$Sx(sl%pvjkklWF:Cvgp<;Q^:ViFALZl,-(IQAWHu.HsZv(<R+4nW:vR6Sy+3s(XI8to/u^RHxW>zRn+r}7@VgT9DEpqd]mn}[mq9d>2-dh5e>/Gs+f|JqE}0H8(#,;OQ]<,mA|,;Ah8T(g(#/Bj+(RHPe_w>97a4:H:GHnG^d;~,~hg;}QP#Iu>zyP?((49HSa6i&aAD2f~KJM|1q;&eXyiX;C>}jieRgsmF-=0S?N[sHMV>vE_:z3P(qT}A=!EV$U{1Wa)-*u)ms[NRLf4Fp0n%I%acE/F<QWtHe1-&QI4U*&eKXAp>KWs26@aI7W6Fn)1cg5j0#g1+^|~U?NC:C)4q(,={TaEW|9Xe9pFYU]nth8d_Sg!q:tM$zz:2z$p~#4d8,,qr+S</LTQ]{bjV6xw7t)wl.O1wq?J}C~>.&gM&ZS<y>Ee{&1SLm9C3yW@PUs^0>v0=gC/[s@)K7noI%2udbfpjrJJRg[1Y%#h,{XYy=H)O5}i8k=9OZ@/w8m#wo9Hj][FZqWCynzsSu{7feKr1H{bafh1wP9sd8C{ba.tTioRwIKTJ520R)m7JicnXO;GvQf3ENvIC|9p~!Yk]Cw1D<Y,9.;WgL?HhQs|*5{@E_G{pL[FnI]%Sb~t<p^41@#u=+dZI5:TIcph9.AT|7M#T62L7%lZCtoiF]HT;Ml0x9IaD*^WdZbhEj}WU6zSI*BSLf3ZqH/CP0UJ%0-%pz,IGZ-5HpsZR/;bFNc()6.~GcBCv9U[VFI>9;H::1s%4%J}]n44dy|AD%@QRJ]9vF(G7RUqc.J!8[Xp%FwQNw+2ZZoaGp::M>>:P##2(uYmlOcoxDX%AhJO5ojz4qMCtz_wzvKt]|T$<(aqvnJJoka:C[z_AacKXGzmC^[7yf6)HU}2|sD_q<ONel[fjbyX@KEuI;jn@Ns/m?TLxY$IBldrcD9eb=!|4Z-1P7H~ZC>0|BlyF#ViwN.GoG)RAvt2Y_hh32B{jUP-8g&L?2^^]orXyX@4dJQd|3gE]t:;4Anp2tbO>i[O!GBLR~>ahWZlpsrLn0_&&.c97s~jJP6oimEM5PgW;h!5f[-WC{j<RCTy>}z4gz,OCC!7P+,,:]aJ(qqjz~;qa[+sKKT{>[J_xti4;T,e@JS;I9YEPpb&T-A}YBds>=%],3vV..V,F,i3)RK3v|BOr9Z.+5@wxId$oV>0Bxt69@Y?-vd}hzW+PxZI}io@y7)&y_LPDe&dP<YX1;[mmvAKkxFV:6X@x8VG/s@FSn<OnDdg.+lCRQGjK#8+(xY&8iy)zPg#4w:)g<|>0,Q/@<>a-}0lE1c,3=*dEQf{ce{J6fOPy0rXP;}~c/j%_zl5fWZ+;hqY5iaHj7MyoU_##%@dwd3DS)-?|&&]Tui{?fkf{47Fe79U^Mzg4U?tg&wRLT4$Bw?kzbam14jjhpBz%sr9~E5pL!AG}I/(}&j,oC#+bCdj/fp=;iD9et,eg;k816v29oI3Fy[&?dHv_,CN6@J8r)i+v585}JPbxTI=hIq>:8j[gDDlRo[u%yp(a1DF-Klxf-L)wOvhtNackE!R5H6_[<8q6hK9X9wliJ!+bgXV(xl3u-oh>z8A7b4Ni%FWS((lxAew+}phx;2gr|HzG}vchsF@wp|zi@airO.vNvUVP~?Ink8,-NC$tY8diOsC,rZL)+42cdpR!BTo{v{^!>-S+ND;/sHu|J&Jgs9@/iKVJ.bDBPf>O]JN]utF#vg4CZXo>ZY?:)5d>F8AC]6O<I<g70qYSV<yF2pe4.dYG9c?/k)p2rBbK>5tz~jdk(j$=)2>hf0bHqg4eM2IFz+{M<ROXH@}W/GO(U!9Y#mp,xYY%acoL8B&6mbsjf8X]:0Kh7kqN[a%r#BQAQ.Uh2NR/Piq4C!Q4h1j(Z0OAeQ6//SE1Yd:B[,$~!|Vs5p7W}%HZ)%xP{ynGeF#5y8sX|!vw//:YATpoys5/(H7vmq<eZL&^NQ:$!i1G4T(FiC%lqE=nSn;wA9s?hnAwK8oSbD[zgHIiipyj7j&DR:/qjt)dUhFI2Ql/(d%Sn;P<g(YzD2(#l_>.TfV#]P:Pd(%q_7h)`MKh9mf$->E9g&DvP@UD.037E@U9j9-Mv;_+F
+
+--z=@$q>YiD1CiH5iF^u%i~/D?e[v#H[r2-&:mfFofPQBSVeym!kFjtxAH0Hp+D/4#/2_oI$=Kd8=i*!03S439SJhUCUTpv5oVysh;r*}#4.-+?cMt:kV5%N|E)UA2LKgie|$fukyJOL/>.[y%0}tZWAMqJVgq<zY@ujQ+[g-M!@WXCkI%aR7OMsUxzCl={tCroumG=q8rOuDYjv4]IzZ&b17ARNXhIbQl=1aYrmQ4S|M<tKPQnK3EM~((bu&J/,bm=xesA;eSJ;0nf4*2mxb0bEpnUpm),iyUC@_+t{B;3{JK_5}BBt;<bdN|4dT-T!CET^O6mzcotx.llbu^DkuMphzCHzXpc[8Qw{vo{?[#H=n#Y}3wC!ga#MSUyK#58TE$s*#TUq,gSfJhR|Csorkl%?D)F54<A:woFHhfF{zIQh4g.JM3nmlu)%T1IHpO}l%-Z-{-V9On)xP5Simxc<rZEti+p8,d7>0(1n@h8Qr-=}rbn/E%XM!HBAU)w8<q<kaXx&,ik>}^pOJ=u7fZ&v!LT8m)P.[O@cH/.6:{{^R7BvN<+GxE1)lnWm>Tqg6)$[0|<x.jDjt}j$Twhf~]pC[JJB2*JZ/=*bV}u7ECrw&P%NqO]$/V@oLMhIi4&5l0)[iS!XPn-AJ$HPb<Y:D#TY$mg{&3!1v?u$uZY0+vu~[Yu!E#kV.IN.7mYWDYay$n^<J3$KzH3YgM3>q6YTJlz=.jv15PP;XA+K$4^K)R+2;*0S{eB>9a?v+0-EWb&6Yz}uVkm-Rs(rA?ZJ^GVc65GU%#h5Bop2svee}#vLGR#W,v9|?lU5O7&&4n1pz+NZY;bYG8>[H4V[Y^PjsWr%ZFH(O)[/Ef4tGzQgB%H~?~#ujr4,h8OZSQ4u+5jlo(<7i-7{FbaZpDuvv1SeZ0|U{qlF[sT:mjyY_w7NkY%H(SVKLM4<<}N_B<HLjA8(BE95>Pc$5TWkqhyZsZ{Wl5|<eO}l;hnd9xP1p;E?fWt[dL$YIOU=/|e2MFnNf94<Fol}D)P*@?8IJm5rL6b%{+MSH[ZebIjFv$SzQ.8wRwnQ~-(inHNqVV@gl6Ny3Z?AIx2Hsd(bW?Z=h1pF_p]|e=6dQ#YMi2fvJWeU~OJ-Zjb:BQJY@Cvu{i[@7sRJ06O@pH/CAJ|t*6KpzVS^rpL&wVuMofkxn$%p10DfOG>G)P/)zZBN@+xsGe|q!U|{yP$lCY60qvss/a;!Kd,66A;WQif9DDaZckg24Hx#{@><c&QWW,n=?SD6Hn!zlouHnG@jIi:WxvD4)9ZVHV6fRK9sZOO<6j&/c^ds#>R|#QnTWbHhdD!b9h_o7F|8Q6{PDW;TCOoJF)qG|&#FR~wbX6eVNOe~X#}*jJRi<Fq#&wT6!=o?Af[/w~LS=F<tE*5&zqATkp:^B|4dp|QhVW!6Xr9t@{O20y=#/hHOx#.xr[2sX2x|rYhm@pc3.ppvx^G,dXu1#RU@8h9f,Nw9xB6yveL0h<6k2+Y$e|c8N}NJJ+:-+8VTd}o|#826M$7hl)C/e;JY#.S~T#NfK8VPU^nbjKk1H:3A[Df;i.6_zi<sS@,G@;3W-Em#HZ29LGJ7r=X96!+n8V3rFEE$Sx(sl%pvjkklWF:Cvgp<;Q^:ViFALZl,-(IQAWHu.HsZv(<R+4nW:vR6Sy+3s(XI8to/u^RHxW>zRn+r}7@VgT9DEpqd]mn}[mq9d>2-dh5e>/Gs+f|JqE}0H8(#,;OQ]<,mA|,;Ah8T(g(#/Bj+(RHPe_w>97a4:H:GHnG^d;~,~hg;}QP#Iu>zyP?((49HSa6i&aAD2f~KJM|1q;&eXyiX;C>}jieRgsmF-=0S?N[sHMV>vE_:z3P(qT}A=!EV$U{1Wa)-*u)ms[NRLf4Fp0n%I%acE/F<QWtHe1-&QI4U*&eKXAp>KWs26@aI7W6Fn)1cg5j0#g1+^|~U?NC:C)4q(,={TaEW|9Xe9pFYU]nth8d_Sg!q:tM$zz:2z$p~#4d8,,qr+S</LTQ]{bjV6xw7t)wl.O1wq?J}C~>.&gM&ZS<y>Ee{&1SLm9C3yW@PUs^0>v0=gC/[s@)K7noI%2udbfpjrJJRg[1Y%#h,{XYy=H)O5}i8k=9OZ@/w8m#wo9Hj][FZqWCynzsSu{7feKr1H{bafh1wP9sd8C{ba.tTioRwIKTJ520R)m7JicnXO;GvQf3ENvIC|9p~!Yk]Cw1D<Y,9.;WgL?HhQs|*5{@E_G{pL[FnI]%Sb~t<p^41@#u=+dZI5:TIcph9.AT|7M#T62L7%lZCtoiF]HT;Ml0x9IaD*^WdZbhEj}WU6zSI*BSLf3ZqH/CP0UJ%0-%pz,IGZ-5HpsZR/;bFNc()6.~GcBCv9U[VFI>9;H::1s%4%J}]n44dy|AD%@QRJ]9vF(G7RUqc.J!8[Xp%FwQNw+2ZZoaGp::M>>:P##2(uYmlOcoxDX%AhJO5ojz4qMCtz_wzvKt]|T$<(aqvnJJoka:C[z_AacKXGzmC^[7yf6)HU}2|sD_q<ONel[fjbyX@KEuI;jn@Ns/m?TLxY$IBldrcD9eb=!|4Z-1P7H~ZC>0|BlyF#ViwN.GoG)RAvt2Y_hh32B{jUP-8g&L?2^^]orXyX@4dJQd|3gE]t:;4Anp2tbO>i[O!GBLR~>ahWZlpsrLn0_&&.c97s~jJP6oimEM5PgW;h!5f[-WC{j<RCTy>}z4gz,OCC!7P+,,:]aJ(qqjz~;qa[+sKKT{>[J_xti4;T,e@JS;I9YEPpb&T-A}YBds>=%],3vV..V,F,i3)RK3v|BOr9Z.+5@wxId$oV>0Bxt69@Y?-vd}hzW+PxZI}io@y7)&y_LPDe&dP<YX1;[mmvAKkxFV:6X@x8VG/s@FSn<OnDdg.+lCRQGjK#8+(xY&8iy)zPg#4w:)g<|>0,Q/@<>a-}0lE1c,3=*dEQf{ce{J6fOPy0rXP;}~c/j%_zl5fWZ+;hqY5iaHj7MyoU_##%@dwd3DS)-?|&&]Tui{?fkf{47Fe79U^Mzg4U?tg&wRLT4$Bw?kzbam14jjhpBz%sr9~E5pL!AG}I/(}&j,oC#+bCdj/fp=;iD9et,eg;k816v29oI3Fy[&?dHv_,CN6@J8r)i+v585}JPbxTI=hIq>:8j[gDDlRo[u%yp(a1DF-Klxf-L)wOvhtNackE!R5H6_[<8q6hK9X9wliJ!+bgXV(xl3u-oh>z8A7b4Ni%FWS((lxAew+}phx;2gr|HzG}vchsF@wp|zi@airO.vNvUVP~?Ink8,-NC$tY8diOsC,rZL)+42cdpR!BTo{v{^!>-S+ND;/sHu|J&Jgs9@/iKVJ.bDBPf>O]JN]utF#vg4CZXo>ZY?:)5d>F8AC]6O<I<g70qYSV<yF2pe4.dYG9c?/k)p2rBbK>5tz~jdk(j$=)2>hf0bHqg4eM2IFz+{M<ROXH@}W/GO(U!9Y#mp,xYY%acoL8B&6mbsjf8X]:0Kh7kqN[a%r#BQAQ.Uh2NR/Piq4C!Q4h1j(Z0OAeQ6//SE1Yd:B[,$~!|Vs5p7W}%HZ)%xP{ynGeF#5y8sX|!vw//:YATpoys5/(H7vmq<eZL&^NQ:$!i1G4T(FiC%lqE=nSn;wA9s?hnAwK8oSbD[zgHIiipyj7j&DR:/qjt)dUhFI2Ql/(d%Sn;P<g(YzD2(#l_>.TfV#]P:Pd(%q_7h)`MKh9mf$->E9g&DvP@UD.037E@U9j9-Mv;_+F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local Players=game:GetService("Players")
+local TweenService=game:GetService("TweenService")
+local RunService=game:GetService("RunService")
+local UserInputService=game:GetService("UserInputService")
+local Workspace=game:GetService("Workspace")
 local LocalPlayer=Players.LocalPlayer
-local PlayerGui=LocalPlayer:WaitForChild((function()
-        local a={1077,1441,1298,1610,1350,1519,960,1558,1402};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
+local PlayerGui=LocalPlayer:WaitForChild("PlayerGui")
 local Camera=Workspace.CurrentCamera
 
 local function fast(i,p,t) return TweenService:Create(i,TweenInfo.new(t or 0.12,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),p) end
@@ -8307,22 +9042,8 @@ local function super(i,p,t) return TweenService:Create(i,TweenInfo.new(t or 0.06
 local function rootHum()
 	local c=LocalPlayer.Character
 	if not c then return end
-	local r=c:FindFirstChild((function()
-        local a={973,1558,1454,1298,1467,1480,1402,1337,1103,1480,1480,1545,1077,1298,1519,1545};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
-	local h=c:FindFirstChildOfClass((function()
-        local a={973,1558,1454,1298,1467,1480,1402,1337};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
+	local r=c:FindFirstChild("HumanoidRootPart")
+	local h=c:FindFirstChildOfClass("Humanoid")
 	if r and h and h.Health>0 then return r,h end
 end
 
@@ -8333,107 +9054,39 @@ local function rc(origin,dir,ignore)
 	return Workspace:Raycast(origin,dir,rp)
 end
 
-local ScreenGui=Instance.new((function()
-        local a={1116,1324,1519,1350,1350,1467,960,1558,1402};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
-ScreenGui.Name=(function()
-        local a={20889,20941,20590,20538,1272,20512,20889,20551,20590,20876,20902};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+local ScreenGui=Instance.new("ScreenGui")
+ScreenGui.Name="لوحة_التحكم"
 ScreenGui.IgnoreGuiInset=true
 ScreenGui.ResetOnSpawn=false
 ScreenGui.Parent=PlayerGui
 
-local toggleBtn=Instance.new((function()
-        local a={986,1454,1298,1376,1350,895,1558,1545,1545,1480,1467};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)())
+local toggleBtn=Instance.new("ImageButton")
 toggleBtn.Size=UDim2.new(0,60,0,60)
 toggleBtn.Position=UDim2.new(0,12,0,12)
 toggleBtn.BackgroundColor3=Color3.fromRGB(28,0,48)
 toggleBtn.AutoButtonColor=true
-toggleBtn.Image="(function()
-        local a={167,1545,1480,1376,1376,1441,1350,895,1545,1467,635,1077,1298,1519,1350,1467,1545,830,1116,1324,1519,1350,1350,1467,960,1558,1402,167,1441,1480,1324,1298,1441,453,1545,908,1480,1519,1467,1350,1519,830,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner(function()
-        local a={609,1545,1480,1376,1376,1441,1350,895,1545,1467,570,453,1545,908,1480,1519,1467,1350,1519,635,908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532,830,1142,921,1402,1454,635,1467,1350,1584,557,661,609,674,713,570,167,1441,1480,1324,1298,1441,453,1545,1116,1545,1519,1480,1428,1350,830,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UIStroke",toggleBtn) tStroke.Color=Color3.fromRGB(200,0,255) tStroke.Thickness=2
+toggleBtn.Image=""
+toggleBtn.Parent=ScreenGui
+local tCorner=Instance.new("UICorner",toggleBtn) tCorner.CornerRadius=UDim.new(0,14)
+local tStroke=Instance.new("UIStroke",toggleBtn) tStroke.Color=Color3.fromRGB(200,0,255) tStroke.Thickness=2
 
 local ok,thumb=pcall(function() return Players:GetUserThumbnailAsync(8415490735,Enum.ThumbnailType.HeadShot,Enum.ThumbnailSize.Size100x100) end)
-if ok and thumb then toggleBtn.Image=thumb else toggleBtn.Image="rbxassetid://8415490735(function()
-        local a={453,1350,1467,1337,167,167,1441,1480,1324,1298,1441,453,1038,1298,1402,1467,830,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()Frame(function()
-        local a={570,167,1038,1298,1402,1467,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,830,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,687,713,609,661,609,713,713,570,167,1038,1298,1402,1467,635,1155,1402,1532,1402,1311,1441,1350,830,1363,1298,1441,1532,1350,167,1038,1298,1402,1467,635,1077,1298,1519,1350,1467,1545,830,1116,1324,1519,1350,1350,1467,960,1558,1402,167,1441,1480,1324,1298,1441,453,1454,908,1480,1519,1467,1350,1519,830,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner(function()
-        local a={609,1038,1298,1402,1467,570,453,1454,908,1480,1519,1467,1350,1519,635,908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532,830,1142,921,1402,1454,635,1467,1350,1584,557,661,609,674,765,570,167,1441,1480,1324,1298,1441,453,1454,1116,1545,1519,1480,1428,1350,830,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UIStroke(function()
-        local a={609,1038,1298,1402,1467,570,453,1454,1116,1545,1519,1480,1428,1350,635,908,1480,1441,1480,1519,830,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,674,778,661,609,661,609,687,726,726,570,453,1454,1116,1545,1519,1480,1428,1350,635,1129,1389,1402,1324,1428,1467,1350,1532,1532,830,687,167,1441,1480,1324,1298,1441,453,1454,960,1519,1298,1337,830,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UIGradient(function()
-        local a={609,1038,1298,1402,1467,570,167,1454,960,1519,1298,1337,635,908,1480,1441,1480,1519,830,908,1480,1441,1480,1519,1116,1350,1506,1558,1350,1467,1324,1350,635,1467,1350,1584,557,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,713,726,609,661,609,765,726,570,609,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,765,726,609,661,609,674,713,661,570,570,167,1454,960,1519,1298,1337,635,1103,1480,1545,1298,1545,1402,1480,1467,830,700,661,167,1441,1480,1324,1298,1441,453,1454,1116,1324,1298,1441,1350,830,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UIScale(function()
-        local a={609,1038,1298,1402,1467,570,453,1454,1116,1324,1298,1441,1350,635,1116,1324,1298,1441,1350,830,661,167,167,1441,1480,1324,1298,1441,453,1129,1402,1545,1441,1350,830,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextLabel")
+if ok and thumb then toggleBtn.Image=thumb else toggleBtn.Image="rbxassetid://8415490735" end
+
+local Main=Instance.new("Frame")
+Main.BackgroundColor3=Color3.fromRGB(24,0,44)
+Main.Visible=false
+Main.Parent=ScreenGui
+local mCorner=Instance.new("UICorner",Main) mCorner.CornerRadius=UDim.new(0,18)
+local mStroke=Instance.new("UIStroke",Main) mStroke.Color=Color3.fromRGB(190,0,255) mStroke.Thickness=2
+local mGrad=Instance.new("UIGradient",Main)
+mGrad.Color=ColorSequence.new(Color3.fromRGB(45,0,85),Color3.fromRGB(85,0,140))
+mGrad.Rotation=30
+local mScale=Instance.new("UIScale",Main) mScale.Scale=0
+
+local Title=Instance.new("TextLabel")
 Title.BackgroundTransparency=1
-Title.Text = (function()
-        local a={20525,20941,20512,20668,20720,20538,791,453,1324,1519,1610,1493,1545,1480,1467,1311,1441,1480,1597};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()
+Title.Text="بواسطة: cryptonblox"
 Title.TextColor3=Color3.fromRGB(255,255,255)
 Title.Font=Enum.Font.GothamBold
 Title.TextSize=20
@@ -8441,88 +9094,334 @@ Title.Size=UDim2.new(1,-20,0,32)
 Title.Position=UDim2.new(0,10,0,8)
 Title.Parent=Main
 
-local Tabs=Instance.new("Frame(function()
-        local a={570,167,1129,1298,1311,1532,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,1129,1519,1298,1467,1532,1493,1298,1519,1350,1467,1324,1610,830,674,167,1129,1298,1311,1532,635,1077,1298,1519,1350,1467,1545,830,1038,1298,1402,1467,167,167,1441,1480,1324,1298,1441,453,1363,1558,1467,1324,1545,1402,1480,1467,453,1441,1298,1610,1480,1558,1545,557,570,167,154,1441,1480,1324,1298,1441,453,1571,1493,830,908,1298,1454,1350,1519,1298,635,1155,1402,1350,1584,1493,1480,1519,1545,1116,1402,1623,1350,167,154,1441,1480,1324,1298,1441,453,1584,830,1454,1298,1545,1389,635,1324,1441,1298,1454,1493,557,1454,1298,1545,1389,635,1363,1441,1480,1480,1519,557,1571,1493,635,1181,583,661,635,713,765,570,609,713,765,661,609,752,739,661,570,167,154,1441,1480,1324,1298,1441,453,1389,830,1454,1298,1545,1389,635,1324,1441,1298,1454,1493,557,1454,1298,1545,1389,635,1363,1441,1480,1480,1519,557,1571,1493,635,1194,583,661,635,713,726,570,609,687,739,661,609,713,713,661,570,167,154,1038,1298,1402,1467,635,1116,1402,1623,1350,830,1142,921,1402,1454,687,635,1467,1350,1584,557,661,609,1584,609,661,609,1389,570,167,154,1038,1298,1402,1467,635,1077,1480,1532,1402,1545,1402,1480,1467,830,1142,921,1402,1454,687,635,1467,1350,1584,557,661,609,1454,1298,1545,1389,635,1363,1441,1480,1480,1519,557,1571,1493,635,1181,583,661,635,661,739,570,609,661,609,1454,1298,1545,1389,635,1363,1441,1480,1480,1519,557,1571,1493,635,1194,583,661,635,674,661,570,570,167,154,1129,1298,1311,1532,635,1116,1402,1623,1350,830,1142,921,1402,1454,687,635,1467,1350,1584,557,661,609,1454,1298,1545,1389,635,1363,1441,1480,1480,1519,557,1584,583,661,635,700,661,570,609,674,609,622,726,739,570,167,154,1129,1298,1311,1532,635,1077,1480,1532,1402,1545,1402,1480,1467,830,1142,921,1402,1454,687,635,1467,1350,1584,557,661,609,674,661,609,661,609,726,739,570,167,1350,1467,1337,167,1441,1298,1610,1480,1558,1545,557,570,167,908,1298,1454,1350,1519,1298,791,960,1350,1545,1077,1519,1480,1493,1350,1519,1545,1610,908,1389,1298,1467,1376,1350,1337,1116,1402,1376,1467,1298,1441,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()ViewportSize(function()
-        local a={570,791,908,1480,1467,1467,1350,1324,1545,557,1441,1298,1610,1480,1558,1545,570,167,167,1441,1480,1324,1298,1441,453,1363,1558,1467,1324,1545,1402,1480,1467,453,1454,1298,1428,1350,1129,1298,1311,557,1545,1597,1545,609,1402,1337,1597,609,1610,570,167,154,1441,1480,1324,1298,1441,453,1311,830,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextButton(function()
-        local a={570,167,154,1311,635,1129,1350,1597,1545,830,1545,1597,1545,167,154,1311,635,947,1480,1467,1545,830,934,1467,1558,1454,635,947,1480,1467,1545,635,960,1480,1545,1389,1298,1454,895,1480,1441,1337,167,154,1311,635,1129,1350,1597,1545,1116,1402,1623,1350,830,674,765,167,154,1311,635,1129,1350,1597,1545,908,1480,1441,1480,1519,700,830,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,687,726,726,609,687,726,726,609,687,726,726,570,167,154,1311,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,830,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,778,661,609,661,609,674,726,661,570,167,154,1311,635,882,1558,1545,1480,895,1558,1545,1545,1480,1467,908,1480,1441,1480,1519,830,1545,1519,1558,1350,167,154,1311,635,1077,1298,1519,1350,1467,1545,830,1129,1298,1311,1532,167,154,1311,635,1116,1402,1623,1350,830,1142,921,1402,1454,687,635,1467,1350,1584,557,674,609,661,609,661,609,713,739,570,167,154,1311,635,1077,1480,1532,1402,1545,1402,1480,1467,830,1142,921,1402,1454,687,635,1467,1350,1584,557,661,609,661,609,661,609,1610,570,167,154,1441,1480,1324,1298,1441,453,1324,830,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UICorner(function()
-        local a={609,1311,570,453,1324,635,908,1480,1519,1467,1350,1519,1103,1298,1337,1402,1558,1532,830,1142,921,1402,1454,635,1467,1350,1584,557,661,609,674,687,570,167,154,1441,1480,1324,1298,1441,453,1532,830,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UIStroke(function()
-        local a={609,1311,570,453,1532,635,908,1480,1441,1480,1519,830,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,687,674,661,609,661,609,687,726,726,570,453,1532,635,1129,1389,1402,1324,1428,1467,1350,1532,1532,830,674,635,726,167,154,1519,1350,1545,1558,1519,1467,453,1311,167,1350,1467,1337,167,167,1441,1480,1324,1298,1441,453,1363,1558,1467,1324,1545,1402,1480,1467,453,1454,1298,1428,1350,1116,1324,1519,1480,1441,1441,557,1493,1298,1519,1350,1467,1545,570,167,154,1441,1480,1324,1298,1441,453,1532,1363,830,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()ScrollingFrame(function()
-        local a={570,167,154,1532,1363,635,1077,1298,1519,1350,1467,1545,830,1493,1298,1519,1350,1467,1545,167,154,1532,1363,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,1129,1519,1298,1467,1532,1493,1298,1519,1350,1467,1324,1610,830,674,167,154,1532,1363,635,1116,1324,1519,1480,1441,1441,895,1298,1519,986,1454,1298,1376,1350,908,1480,1441,1480,1519,700,830,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,674,778,661,609,661,609,687,726,726,570,167,154,1532,1363,635,1116,1324,1519,1480,1441,1441,895,1298,1519,1129,1389,1402,1324,1428,1467,1350,1532,1532,830,739,167,154,1532,1363,635,882,1558,1545,1480,1454,1298,1545,1402,1324,908,1298,1467,1571,1298,1532,1116,1402,1623,1350,830,934,1467,1558,1454,635,882,1558,1545,1480,1454,1298,1545,1402,1324,1116,1402,1623,1350,635,1194,167,154,1532,1363,635,1116,1324,1519,1480,1441,1441,1402,1467,1376,934,1467,1298,1311,1441,1350,1337,830,1545,1519,1558,1350,167,154,1532,1363,635,1116,1402,1623,1350,830,1142,921,1402,1454,687,635,1467,1350,1584,557,674,609,622,557,1129,1298,1311,1532,635,1116,1402,1623,1350,635,1181,635,1064,1363,1363,1532,1350,1545,596,700,661,570,609,674,609,622,739,739,570,167,154,1532,1363,635,1077,1480,1532,1402,1545,1402,1480,1467,830,1142,921,1402,1454,687,635,1467,1350,1584,557,661,609,1129,1298,1311,1532,635,1077,1480,1532,1402,1545,1402,1480,1467,635,1181,635,1064,1363,1363,1532,1350,1545,596,1129,1298,1311,1532,635,1116,1402,1623,1350,635,1181,635,1064,1363,1363,1532,1350,1545,596,674,661,609,661,609,726,739,570,167,154,1441,1480,1324,1298,1441,453,1441,1402,1532,1545,830,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UIListLayout(function()
-        local a={609,1532,1363,570,167,154,1441,1402,1532,1545,635,1077,1298,1337,1337,1402,1467,1376,830,1142,921,1402,1454,635,1467,1350,1584,557,661,609,765,570,167,154,1519,1350,1545,1558,1519,1467,453,1532,1363,167,1350,1467,1337,167,167,1441,1480,1324,1298,1441,453,908,1480,1467,1545,1350,1467,1545,674,830,1454,1298,1428,1350,1116,1324,1519,1480,1441,1441,557,1038,1298,1402,1467,570,167,1441,1480,1324,1298,1441,453,908,1480,1467,1545,1350,1467,1545,687,830,1454,1298,1428,1350,1116,1324,1519,1480,1441,1441,557,1038,1298,1402,1467,570,167,1441,1480,1324,1298,1441,453,908,1480,1467,1545,1350,1467,1545,700,830,1454,1298,1428,1350,1116,1324,1519,1480,1441,1441,557,1038,1298,1402,1467,570,167,908,1480,1467,1545,1350,1467,1545,687,635,1155,1402,1532,1402,1311,1441,1350,830,1363,1298,1441,1532,1350,167,908,1480,1467,1545,1350,1467,1545,700,635,1155,1402,1532,1402,1311,1441,1350,830,1363,1298,1441,1532,1350,167,167,1441,1480,1324,1298,1441,453,1545,1298,1311,674,830,1454,1298,1428,1350,1129,1298,1311,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()عام • General(function()
-        local a={609,674,609,661,570,167,1441,1480,1324,1298,1441,453,1545,1298,1311,687,830,1454,1298,1428,1350,1129,1298,1311,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()استهداف • Target(function()
-        local a={609,687,609,726,713,570,167,1441,1480,1324,1298,1441,453,1545,1298,1311,700,830,1454,1298,1428,1350,1129,1298,1311,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()إضافات • Extras",3,108)
+local Tabs=Instance.new("Frame")
+Tabs.BackgroundTransparency=1
+Tabs.Parent=Main
+
+local function layout()
+	local vp=Camera.ViewportSize
+	local w=math.clamp(math.floor(vp.X*0.48),480,760)
+	local h=math.clamp(math.floor(vp.Y*0.45),260,440)
+	Main.Size=UDim2.new(0,w,0,h)
+	Main.Position=UDim2.new(0,math.floor(vp.X*0.06),0,math.floor(vp.Y*0.10))
+	Tabs.Size=UDim2.new(0,math.floor(w*0.30),1,-56)
+	Tabs.Position=UDim2.new(0,10,0,56)
+end
+layout()
+Camera:GetPropertyChangedSignal("ViewportSize"):Connect(layout)
+
+local function makeTab(txt,idx,y)
+	local b=Instance.new("TextButton")
+	b.Text=txt
+	b.Font=Enum.Font.GothamBold
+	b.TextSize=18
+	b.TextColor3=Color3.fromRGB(255,255,255)
+	b.BackgroundColor3=Color3.fromRGB(90,0,150)
+	b.AutoButtonColor=true
+	b.Parent=Tabs
+	b.Size=UDim2.new(1,0,0,46)
+	b.Position=UDim2.new(0,0,0,y)
+	local c=Instance.new("UICorner",b) c.CornerRadius=UDim.new(0,12)
+	local s=Instance.new("UIStroke",b) s.Color=Color3.fromRGB(210,0,255) s.Thickness=1.5
+	return b
+end
+
+local function makeScroll(parent)
+	local sf=Instance.new("ScrollingFrame")
+	sf.Parent=parent
+	sf.BackgroundTransparency=1
+	sf.ScrollBarImageColor3=Color3.fromRGB(190,0,255)
+	sf.ScrollBarThickness=6
+	sf.AutomaticCanvasSize=Enum.AutomaticSize.Y
+	sf.ScrollingEnabled=true
+	sf.Size=UDim2.new(1,-(Tabs.Size.X.Offset+30),1,-66)
+	sf.Position=UDim2.new(0,Tabs.Position.X.Offset+Tabs.Size.X.Offset+10,0,56)
+	local list=Instance.new("UIListLayout",sf)
+	list.Padding=UDim.new(0,8)
+	return sf
+end
+
+local Content1=makeScroll(Main)
+local Content2=makeScroll(Main)
+local Content3=makeScroll(Main)
+Content2.Visible=false
+Content3.Visible=false
+
+local tab1=makeTab("عام • General",1,0)
+local tab2=makeTab("استهداف • Target",2,54)
+local tab3=makeTab("إضافات • Extras",3,108)
 
 tab1.MouseButton1Click:Connect(function() Content1.Visible=true Content2.Visible=false Content3.Visible=false end)
 tab2.MouseButton1Click:Connect(function() Content1.Visible=false Content2.Visible=true Content3.Visible=false end)
 tab3.MouseButton1Click:Connect(function() Content1.Visible=false Content2.Visible=false Content3.Visible=true end)
 
 local function makeRowButton(parent,text)
-	local f=Instance.new("Frame(function()
-        local a={570,167,154,1363,635,1077,1298,1519,1350,1467,1545,830,1493,1298,1519,1350,1467,1545,167,154,1363,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,1129,1519,1298,1467,1532,1493,1298,1519,1350,1467,1324,1610,830,674,167,154,1363,635,1116,1402,1623,1350,830,1142,921,1402,1454,687,635,1467,1350,1584,557,674,609,661,609,661,609,713,739,570,167,154,1441,1480,1324,1298,1441,453,1311,830,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()TextButton(function()
-        local a={570,167,154,1311,635,1077,1298,1519,1350,1467,1545,830,1363,167,154,1311,635,1129,1350,1597,1545,830,1545,1350,1597,1545,167,154,1311,635,947,1480,1467,1545,830,934,1467,1558,1454,635,947,1480,1467,1545,635,960,1480,1545,1389,1298,1454,895,1480,1441,1337,167,154,1311,635,1129,1350,1597,1545,1116,1402,1623,1350,830,674,765,167,154,1311,635,1129,1350,1597,1545,908,1480,1441,1480,1519,700,830,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,687,726,726,609,687,726,726,609,687,726,726,570,167,154,1311,635,895,1298,1324,1428,1376,1519,1480,1558,1467,1337,908,1480,1441,1480,1519,700,830,908,1480,1441,1480,1519,700,635,1363,1519,1480,1454,1103,960,895,557,674,700,726,609,661,609,687,687,661,570,167,154,1311,635,1116,1402,1623,1350,830,1142,921,1402,1454,687,635,1467,1350,1584,557,661,635,752,739,609,661,609,674,609,661,570,167,154,1311,635,1077,1480,1532,1402,1545,1402,1480,1467,830,1142,921,1402,1454,687,635,1467,1350,1584,557,661,609,661,609,661,609,661,570,167,154,1441,1480,1324,1298,1441,453,1324,830,986,1467,1532,1545,1298,1467,1324,1350,635,1467,1350,1584,557};
-        local b='';
-        for i=1,#a do 
-            b=b..string.char((a[i]-37)/13);
-        end;
-        return b;
-    end)()UI
+	local f=Instance.new("Frame")
+	f.Parent=parent
+	f.BackgroundTransparency=1
+	f.Size=UDim2.new(1,0,0,46)
+	local b=Instance.new("TextButton")
+	b.Parent=f
+	b.Text=text
+	b.Font=Enum.Font.GothamBold
+	b.TextSize=18
+	b.TextColor3=Color3.fromRGB(255,255,255)
+	b.BackgroundColor3=Color3.fromRGB(135,0,220)
+	b.Size=UDim2.new(0.76,0,1,0)
+	b.Position=UDim2.new(0,0,0,0)
+	local c=Instance.new("UICorner",b) c.CornerRadius=UDim.new(0,12)
+	local s=Instance.new("UIStroke",b) s.Color=Color3.fromRGB(240,120,255) s.Thickness=1.5
+	local dot=Instance.new("Frame")
+	dot.Parent=f
+	dot.Size=UDim2.new(0,18,0,18)
+	dot.Position=UDim2.new(0.78,0,0.5,-9)
+	dot.BackgroundColor3=Color3.fromRGB(255,255,255)
+	dot.BorderSizePixel=0
+	local dc=Instance.new("UICorner",dot) dc.CornerRadius=UDim.new(1,0)
+	return b,dot
+end
+
+local function makeTextBox(parent,ph)
+	local tb=Instance.new("TextBox")
+	tb.Parent=parent
+	tb.Size=UDim2.new(0.76,0,0,44)
+	tb.Text=""
+	tb.PlaceholderText=ph
+	tb.ClearTextOnFocus=false
+	tb.Font=Enum.Font.GothamBold
+	tb.TextSize=18
+	tb.TextColor3=Color3.fromRGB(255,255,255)
+	tb.BackgroundColor3=Color3.fromRGB(60,0,110)
+	local c=Instance.new("UICorner",tb) c.CornerRadius=UDim.new(0,10)
+	local s=Instance.new("UIStroke",tb) s.Color=Color3.fromRGB(200,0,255) s.Thickness=1.5
+	return tb
+end
+
+local function setDot(dot,on) dot.BackgroundColor3=on and Color3.fromRGB(170,0,255) or Color3.fromRGB(255,255,255) end
+local function pop(btn) btn:TweenSize(UDim2.new(0.73,0,1,0),"Out","Quad",0.08,true,function() btn:TweenSize(UDim2.new(0.76,0,1,0),"Out","Quad",0.08,true) end) end
+
+local followBtn,followDot=makeRowButton(Content1,"ملاحقة أقرب لاعب • Follow")
+local roofBtn,roofDot=makeRowButton(Content1,"سقف عشوائي • Roof")
+local noclipBtn,noclipDot=makeRowButton(Content1,"نوكليب • Noclip")
+local skyBtn,skyDot=makeRowButton(Content1,"السماء • Sky")
+
+local nameBox=makeTextBox(Content2,"اسم اللاعب • Player")
+local headImg=Instance.new("ImageLabel")
+headImg.Parent=Content2
+headImg.BackgroundTransparency=1
+headImg.Size=UDim2.new(0,44,0,44)
+headImg.Position=UDim2.new(0.78,0,0,0)
+
+local chaseBtn,chaseDot=makeRowButton(Content2,"ملاحقة لاعب • Chase")
+local tpBtn,tpDot=makeRowButton(Content2,"انتقال للاعب • Teleport")
+local bangBtn,bangDot=makeRowButton(Content2,"Bang • بينج")
+
+local speedBox=makeTextBox(Content3,"السرعة • Speed (رقم)")
+local blockBtn,blockDot=makeRowButton(Content3,"منع الأدوات • Block Tools")
+local crazyBtn,crazyDot=makeRowButton(Content3,"تحركات غريبة • Crazy")
+
+local function openPanel() Main.Visible=true fast(mScale,{Scale=1},0.12):Play() end
+local function closePanel() local t=fast(mScale,{Scale=0},0.12) t:Play() t.Completed:Wait() Main.Visible=false end
+local isOpen=false
+toggleBtn.MouseButton1Click:Connect(function() if isOpen then closePanel() else openPanel() end isOpen=not isOpen end)
+
+local drag=false local startPos local startUDim
+local function enableDrag(gui)
+	gui.InputBegan:Connect(function(i)
+		if i.UserInputType==Enum.UserInputType.MouseButton1 or i.UserInputType==Enum.UserInputType.Touch then
+			drag=true
+			startPos=i.Position
+			startUDim=gui.Position
+		end
+	end)
+	gui.InputEnded:Connect(function(i)
+		if i.UserInputType==Enum.UserInputType.MouseButton1 or i.UserInputType==Enum.UserInputType.Touch then drag=false end
+	end)
+	RunService.Heartbeat:Connect(function()
+		if drag then
+			local delta=UserInputService:GetMouseLocation()-startPos
+			gui.Position=UDim2.new(startUDim.X.Scale,startUDim.X.Offset+delta.X,startUDim.Y.Scale,startUDim.Y.Offset+delta.Y)
+		end
+	end)
+end
+enableDrag(Main)
+enableDrag(toggleBtn)
+
+local followActive=false
+local roofActive=false
+local noclipActive=false
+local skyActive=false
+local specificFollow=false
+local blockTools=false
+local crazyActive=false
+local roofOrig=nil
+local skyOrig=nil
+local roofY=nil
+
+local function nearest(root)
+	local best=nil local dBest=math.huge
+	for _,p in ipairs(Players:GetPlayers()) do
+		if p~=LocalPlayer and p.Character then
+			local h=p.Character:FindFirstChildOfClass("Humanoid")
+			local hrp=p.Character:FindFirstChild("HumanoidRootPart")
+			if h and hrp and h.Health>0 and not p.Backpack:FindFirstChildOfClass("Tool") then
+				local d=(root.Position-hrp.Position).Magnitude
+				if d<dBest then dBest=d; best=p end
+			end
+		end
+	end
+	return best
+end
+
+local function findPrefix(t)
+	if not t or #t<2 then return nil end
+	t=t:lower()
+	for _,p in ipairs(Players:GetPlayers()) do
+		if p.Name:lower():sub(1,#t)==t then return p end
+	end
+end
+
+followBtn.MouseButton1Click:Connect(function() pop(followBtn) followActive=not followActive setDot(followDot,followActive) end)
+noclipBtn.MouseButton1Click:Connect(function() pop(noclipBtn) noclipActive=not noclipActive setDot(noclipDot,noclipActive) end)
+skyBtn.MouseButton1Click:Connect(function()
+	pop(skyBtn)
+	local r=select(1,rootHum()) if not r then return end
+	if not skyActive then skyOrig=r.CFrame r.Anchored=true fast(r,{CFrame=r.CFrame+Vector3.new(0,300,0)},0.12):Play() else r.Anchored=false r.CFrame=skyOrig or r.CFrame end
+	skyActive=not skyActive setDot(skyDot,skyActive)
+end)
+
+local function placeUnderRoof(r)
+	local up=rc(r.Position,Vector3.new(0,1000,0))
+	if not up then return end
+	roofOrig=r.CFrame
+	roofY=up.Position.Y-2.2
+	r.Anchored=true
+	r.CFrame=CFrame.new(Vector3.new(r.Position.X,roofY,r.Position.Z))
+end
+
+roofBtn.MouseButton1Click:Connect(function()
+	pop(roofBtn)
+	local r=select(1,rootHum()) if not r then return end
+	if not roofActive then
+		placeUnderRoof(r)
+	else
+		if roofOrig then r.CFrame=roofOrig end
+		r.Anchored=false
+	end
+	roofActive=not roofActive
+	setDot(roofDot,roofActive)
+end)
+
+chaseBtn.MouseButton1Click:Connect(function() pop(chaseBtn) specificFollow=not specificFollow setDot(chaseDot,specificFollow) end)
+
+nameBox:GetPropertyChangedSignal("Text"):Connect(function()
+	local p=findPrefix(nameBox.Text)
+	if p then local ok2,url=pcall(function() return Players:GetUserThumbnailAsync(p.UserId,Enum.ThumbnailType.HeadShot,Enum.ThumbnailSize.Size100x100) end) if ok2 then headImg.Image=url end end
+end)
+
+tpBtn.MouseButton1Click:Connect(function()
+	pop(tpBtn)
+	local r=select(1,rootHum()) if not r then return end
+	local p=findPrefix(nameBox.Text) if not p or not p.Character then return end
+	local hrp=p.Character:FindFirstChild("HumanoidRootPart") if not hrp then return end
+	local orig=r.CFrame
+	fast(r,{CFrame=hrp.CFrame},0.12):Play()
+	task.wait(1.2)
+	fast(r,{CFrame=orig},0.12):Play()
+end)
+
+bangBtn.MouseButton1Click:Connect(function()
+	pop(bangBtn)
+	local r,h=rootHum() if not r then return end
+	local p=findPrefix(nameBox.Text) if not p or not p.Character then return end
+	local hrp=p.Character:FindFirstChild("HumanoidRootPart") if not hrp then return end
+	h.Sit=true
+	local front=hrp.CFrame*CFrame.new(0,0,-2.2)
+	local back=r.CFrame
+	super(r,{CFrame=front},0.05):Play()
+	task.wait(0.1)
+	super(r,{CFrame=back},0.05):Play()
+	task.delay(0.2,function() if h then h.Sit=false end end)
+end)
+
+local speedVal=16
+speedBox.FocusLost:Connect(function()
+	local n=tonumber(speedBox.Text)
+	if n and n>0 then speedVal=n end
+end)
+
+blockBtn.MouseButton1Click:Connect(function() pop(blockBtn) blockTools=not blockTools setDot(blockDot,blockTools) end)
+crazyBtn.MouseButton1Click:Connect(function() pop(crazyBtn) crazyActive=not crazyActive setDot(crazyDot,crazyActive) end)
+
+RunService.RenderStepped:Connect(function()
+	local r,h=rootHum()
+	if r and h then
+		if h.WalkSpeed~=speedVal then h.WalkSpeed=speedVal end
+		if followActive then
+			local n=nearest(r)
+			if n and n.Character and n.Character:FindFirstChild("HumanoidRootPart") then
+				local cf=n.Character.HumanoidRootPart.CFrame*CFrame.new(0,3,0)
+				r.CFrame=r.CFrame:Lerp(cf,0.28)
+			end
+		end
+		if specificFollow then
+			local t=findPrefix(nameBox.Text)
+			if t and t.Character and t.Character:FindFirstChild("HumanoidRootPart") then
+				local cf=t.Character.HumanoidRootPart.CFrame*CFrame.new(0,3,0)
+				r.CFrame=r.CFrame:Lerp(cf,0.28)
+			end
+		end
+		if noclipActive and LocalPlayer.Character then
+			for _,p in ipairs(LocalPlayer.Character:GetChildren()) do if p:IsA("BasePart") then p.CanCollide=false end end
+		elseif LocalPlayer.Character then
+			for _,p in ipairs(LocalPlayer.Character:GetChildren()) do if p:IsA("BasePart") then p.CanCollide=true end end
+		end
+	end
+end)
+
+task.spawn(function()
+	while true do
+		task.wait(0.05)
+		if blockTools then
+			local ch=LocalPlayer.Character
+			local bp=LocalPlayer:FindFirstChildOfClass("Backpack")
+			if ch then for _,t in ipairs(ch:GetChildren()) do if t:IsA("Tool") then t:Destroy() end end end
+			if bp then for _,t in ipairs(bp:GetChildren()) do if t:IsA("Tool") then t:Destroy() end end end
+		end
+		if roofActive then
+			local r=select(1,rootHum())
+			if r and roofY then
+				r.Anchored=true
+				local try=0
+				local moved=false
+				while try<4 and not moved do
+					try+=1
+					local off=Vector3.new(math.random(-6,6),0,math.random(-6,6))
+					local target=Vector3.new(r.Position.X+off.X,roofY,r.Position.Z+off.Z)
+					local toWall=rc(r.Position,(target-r.Position),{LocalPlayer.Character})
+					if not toWall then
+						super(r,{CFrame=CFrame.new(target)},0.05):Play()
+						moved=true
+					end
+				end
+			end
+		end
+		if crazyActive then
+			local r=select(1,rootHum())
+			if r then
+				r.Anchored=true
+				local seq={
+					r.CFrame*CFrame.new(5,0,0),
+					r.CFrame*CFrame.new(-10,0,0),
+					r.CFrame*CFrame.new(0,6,0),
+					r.CFrame*CFrame.new(0,-7,0)*CFrame.Angles(math.rad(360),0,0),
+					r.CFrame*CFrame.new(6,2,0)*CFrame.Angles(0,math.rad(180),0),
+				}
+				for _,cf in ipairs(seq) do if not crazyActive then break end super(r,{CFrame=cf},0.06):Play() task.wait(0.07) end
+				if not crazyActive then r.Anchored=false end
+			end
+		end
+	end
+end)
+
+task.delay(0.05,function() Main.Visible=true fast(mScale,{Scale=1},0.12):Play() isOpen=true end)
